@@ -25,7 +25,7 @@ p {
   height: 215px;
 }
 
-#textContainer {
+#pContainer {
   width: 500px;
 }
 
@@ -35,4 +35,14 @@ p {
 
 .centerDiv {
   margin: 0 auto;
+}
+
+img {
+  width: 350px;
+  height: 350px;
+  margin: 10px;
+}
+
+#textContainer, #imageContainer {
+  width: 1520px;
 }
