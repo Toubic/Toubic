@@ -7,9 +7,19 @@ body {
   margin-top: 20px;
 }
 
-h1, h2 {
+h1, p {
   font-family: 'Arvo', serif;
 }
+
+h1 {
+  font-size: 300%;
+  font-weight: bold;
+}
+
+p {
+  font-size: 150%;
+}
+
 #logo {
   width: 160px;
   height: 215px;
