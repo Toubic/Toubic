@@ -46,3 +46,34 @@ img {
 #textContainer, #imageContainer {
   width: 1520px;
 }
+
+@media (max-width: 475px)  {
+  body {
+    margin: 15px;
+  }
+
+  h1 {
+    font-size: 250%;
+  }
+
+  p {
+    font-size: 125%;
+  }
+
+  #textContainer {
+    width: 445px;
+  }
+  #pContainer {
+    text-align: center;
+    width: 100%;
+  }
+
+  #imageContainer {
+    width: 475px;
+  }
+  img {
+    width: 215px;
+    height: 215px;
+    margin: 5px;
+  }
+}
