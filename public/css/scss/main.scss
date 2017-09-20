@@ -7,10 +7,22 @@ body {
   margin-top: 20px;
 }
 
-h1, p {
+h1, h2 {
   font-family: 'Arvo', serif;
 }
 #logo {
   width: 160px;
   height: 215px;
+}
+
+#textContainer {
+  width: 500px;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.centerDiv {
+  margin: 0 auto;
 }
