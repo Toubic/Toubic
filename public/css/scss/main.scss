@@ -47,34 +47,4 @@ img {
   width: 1520px;
 }
 
-@media (max-width: 475px)  {
-  body {
-    margin: 15px;
-  }
-
-  h1 {
-    font-size: 220%;
-  }
-
-  p {
-    font-size: 130%;
-  }
-
-  #textContainer {
-    width: 445px;
-  }
-  #pContainer {
-    margin-top: 60px;
-    text-align: center;
-    width: 78%;
-  }
-
-  #imageContainer {
-    width: 475px;
-  }
-  img {
-    width: 215px;
-    height: 215px;
-    margin: 5px;
-  }
-}
+@import "mobile";
