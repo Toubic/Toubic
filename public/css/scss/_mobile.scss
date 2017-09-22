@@ -1,6 +1,7 @@
 @media (max-width: 500px)  {
   body {
-    margin: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
   }
 
   h1 {
@@ -12,6 +13,8 @@
   }
 
   #logo {
+    margin-top: 10px;
+    margin-left: 10px;
     width: 85px;
     height: 110px;
   }
@@ -31,11 +34,13 @@
   }
 
   #imageContainer {
-    width: 340px;
+    width: 320px;
   }
   img {
     width: 145px;
     height: 145px;
-    margin: 10px;
+    margin: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
   }
 }
