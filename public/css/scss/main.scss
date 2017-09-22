@@ -5,6 +5,11 @@ html {
 body {
   margin-left: 150px;
   margin-top: 20px;
+  width: 100%;
+}
+
+main {
+  margin: 0 auto;
 }
 
 h1, p {
@@ -21,8 +26,8 @@ p {
 }
 
 #logo {
-  width: 160px;
-  height: 215px;
+  width: 100px;
+  height: 130px;
 }
 
 #pContainer {
@@ -38,13 +43,12 @@ p {
 }
 
 img {
-  width: 350px;
-  height: 350px;
-  margin: 10px;
+  margin: 20px;
+  max-width: 100%;
 }
 
-#textContainer, #imageContainer {
-  width: 1520px;
+#imageContainer {
+  width: 1140px;
 }
 
 @import "mobile";
