@@ -3,8 +3,9 @@ html {
   padding: 0;
 }
 body {
-  margin-left: 150px;
-  margin-top: 20px;
+  margin-left: 255px;
+  margin-top: 10px;
+  margin-right: 235px;
   width: 100%;
 }
 
@@ -52,12 +53,14 @@ p {
 }
 
 img {
-  margin: 20px;
+  margin: 0;
+  margin-right: 20px;
+  margin-bottom: 20px;
   max-width: 100%;
 }
 
 #imageContainer {
-  width: 1140px;
+  width: 1060px;
 }
 
 @import "mobile";
