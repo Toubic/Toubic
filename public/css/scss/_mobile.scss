@@ -1,4 +1,4 @@
-@media (max-width: 475px)  {
+@media (max-width: 345px)  {
   body {
     margin: 15px;
   }
@@ -11,21 +11,29 @@
     font-size: 130%;
   }
 
+  #logo {
+    width: 85px;
+    height: 110px;
+  }
+
+  #loremText {
+
+  }
+
+  #portfolioTitle {
+
+  }
+
   #textContainer {
     width: 445px;
   }
-  #pContainer {
-    margin-top: 60px;
-    text-align: center;
-    width: 78%;
-  }
 
   #imageContainer {
-    width: 475px;
+    width: 340px;
   }
   img {
-    width: 215px;
-    height: 215px;
-    margin: 5px;
+    width: 145px;
+    height: 145px;
+    margin: 10px;
   }
 }
