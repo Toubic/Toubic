@@ -10,6 +10,7 @@ body {
 }
 
 main {
+  float: left;
   margin: 0 auto;
 }
 
@@ -60,7 +61,7 @@ img {
 }
 
 #imageContainer {
-  width: 1140px;
+  width: 1060px;
 }
 
 @import "mobile";
