@@ -1,12 +1,18 @@
 @media (max-width: 1055px)  {
 
+  body {
+    margin-left: 10px;
+  }
+
   #imageContainer {
-    width: 680px;
+    width: 640px;
   }
 
   #imageContainer img {
     width: 145px;
     height: 145px;
+    margin-right: 10px;
+    margin-bottom: 10px;
   }
 }
 
