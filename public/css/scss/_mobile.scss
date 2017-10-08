@@ -1,33 +1,4 @@
-@media (max-width: 1055px)  {
-
-  body {
-    margin-left: 10px;
-  }
-
-  #imageContainer {
-    width: 640px;
-  }
-
-  #imageContainer img {
-    width: 145px;
-    height: 145px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-  }
-}
-
-
 @media (max-width: 660px)  {
-  body {
-    margin-left: 10px;
-  }
-  nav {
-    width: 320px;
-    margin: 0 auto;
-  }
-  main {
-    margin: 0 auto;
-  }
 
   h1 {
     font-size: 170%;
@@ -39,10 +10,9 @@
   }
 
   #logo {
-    margin-top: 10px;
+    margin: 10px;
     width: 86px;
     height: 110px;
-    float: left;
   }
 
   #loremText {
@@ -58,13 +28,8 @@
     margin-bottom: 23px;
   }
 
-  #imageContainer {
-    width: 320px;
-  }
-  #imageContainer img {
-    width: 145px;
-    height: 145px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+  .imageLayout {
+    padding: 0 5px;
+    width: 21%;
   }
 }

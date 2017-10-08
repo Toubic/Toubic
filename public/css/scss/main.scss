@@ -2,15 +2,8 @@ html {
   margin: 0;
   padding: 0;
 }
-body {
-  width: 100%;
-  margin: 0 auto;
-  margin-left: 20px;
-}
-nav {
-  width: 1060px;
-  margin: 0 auto;
-}
+
+
 
 main {
   margin: 0 auto;
@@ -31,7 +24,7 @@ p {
 }
 
 #logo {
-  margin-top: 20px;
+  margin: 20px;
   width: 102px;
   height: 130px;
   float: left;
@@ -54,20 +47,25 @@ p {
   text-align: center;
 }
 
+#imagesContainer {
+  box-sizing: border-box;
+  max-width: 1044px;
+}
+
 .centerDiv {
   margin: 0 auto;
 }
 
-#imageContainer img {
-  margin-right: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+.imageLayout {
+  padding: 0 10px;
+  float: left;
+  width: 22%;
 }
 
-#imageContainer {
-  margin: 0 auto;
-  max-width: 1064px;
-  max-height: 540px;
+.responsiveImg {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 @import "mobile";
