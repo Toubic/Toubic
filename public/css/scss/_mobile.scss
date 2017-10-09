@@ -9,8 +9,11 @@
     line-height: 24px;
   }
 
-  #logo {
+  body {
     margin: 10px;
+  }
+
+  #logo {
     width: 86px;
     height: 110px;
   }
@@ -29,7 +32,6 @@
   }
 
   .imageLayout {
-    padding: 0 5px;
-    width: 21%;
+    padding: 5px;
   }
 }
