@@ -67,9 +67,38 @@ html {
     width: 21%;
   }
   
-  .responsiveImg {
+  .responsive {
     width: 100%;
     height: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.38);
   }
+  @media (max-width: 660px)  {
+
+    h1 {
+      font-size: 170%;
+    }
   
+    p {
+      font-size: 99%;
+      line-height: 24px;
+    }
+  
+    body {
+      margin: 20px;
+    }
+  
+    #galleryText {
+      width: 250px;
+      height: 40px;
+      margin-top: 50px;
+    }
+  
+    #galleryTitle {
+      width: 165px;
+      height: 10px;
+    }
+  
+    .imageLayout {
+      padding: 5px;
+    }
+  }
