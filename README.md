@@ -1,3 +1,3 @@
 # Toubic
 
-This is a responsive image gallery.
+This is a responsive Twitch gallery.
